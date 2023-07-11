@@ -1,0 +1,10 @@
+body{
+    font-family:'Cinzel Decorative';
+    background: #525686;
+    color: #ffffff;
+}
+.cabecalho{
+    display: flex;
+    background-color: aquamarine;
+    justify-content: center;
+}
