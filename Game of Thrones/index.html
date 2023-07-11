@@ -1,19 +1,90 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Escolha sua Casa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap"
+        rel="stylesheet">
 </head>
-<body>
-   <header class="cabecalho">
-   </header>
 
-   <main class="selecao-de-personagens">
-       <h1>Westeros</h1>
-       <section class="personagens"></section>
-       <section class="personagem-selecionado"></section>
- 
-    </main> 
+<body>
+    <header class="cabecalho">
+        <img src="./src/imagens/cabecalho.png" alt="">
+    </header>
+
+    <main class="selecao-de-casas">
+
+        <section class="casas"></section>
+        <h1 class="titulo">Selecione sua Casa:</h1>
+
+
+        <ul class="lista-de-casas">
+            <li class="casa" id="stark">
+                <img src="./src/imagens/imagem (4).jpg" alt="Stark">
+            </li>
+            <li class="casa" id="lannister">
+                <img src="./src/imagens/imagem (5).jpg" alt="Lannister">
+            </li>
+            <li class="casa" id="baratheon"><img src="./src/imagens/imagem (3).jpg" alt="Baratheon"></li>
+            <li class="casa" id="greyjoy"><img src="./src/imagens/imagem (8).jpg" alt="Greyjoy"></li>
+            <li class="casa" id="targaryen"><img src="./src/imagens/imagem (1).jpg" alt="Targaryen"></li>
+            <li class="casa" id="martell"><img src="./src/imagens/imagem (6).jpg" alt="Martell"></li>
+            <li class="casa" id="arryn"><img src="./src/imagens/imagem (7).jpg" alt="Arryn"></li>
+            <li class="casa" id="tully"><img src="./src/imagens/imagem (2).jpg" alt="Tully"></li>
+
+        </ul>
+
+
+        <section class="casa-selecionada">
+            <img class="escudo-casa" src="./src/imagens/imagem (9).png" alt="Selecionar Stark">
+                <div class="informacoes-casa">
+                    <h2 class="casa" id="nome-casa">Stark</h2>
+                    <p class="descricao-casa">"O inverno está chegando..."</p>
+                </div>
+            <img class="escudo-casa" src="./src/imagens/imagem (22).png" alt="Selecionar Stark">
+                <div class="informacoes-casa">
+                    <h2 class="casa" id="nome-casa">Lannister</h2>
+                    <p class="descricao-casa">"Ouça-me rugir!"</p>
+                </div>
+            <img class="escudo-casa" src="./src/imagens/imagem (12).png" alt="Selecionar Baratheon">
+                <div class="informacoes-casa">
+                    <h2 class="casa" id="nome-casa">Baratheon</h2>
+                    <p class="descricao-casa">"Nossa é a fúria"</p>
+                </div>
+            <img class="escudo-casa" src="./src/imagens/imagem (13).png" alt="Selecionar Greyjoy">
+                <div class="informacoes-casa">
+                    <h2 class="casa" id="nome-casa">Greyjoy</h2>
+                    <p class="descricao-casa">"Nós não semeamos"</p>
+                </div>
+            <img class="escudo-casa" src="./src/imagens/imagem (10).png" alt="Selecionar Targaryen">
+                <div class="informacoes-casa">
+                    <h2 class="casa" id="nome-casa">Targaryen</h2>
+                    <p class="descricao-casa">"Fogo e Sangue"</p>
+                </div>
+            <img class="escudo-casa" src="./src/imagens/imagem (23).png" alt="Selecionar Martell">
+                <div class="informacoes-casa">
+                    <h2 class="casa" id="nome-casa">Martell</h2>
+                    <p class="descricao-casa">"Insubmissos, Não Curvados, Não Quebrados"</p>
+                </div>
+            <img class="escudo-casa" src="./src/imagens/imagem (11).png" alt="Selecionar Arryn">
+                <div class="informacoes-casa">
+                    <h2 class="casa" id="nome-casa">Arryn</h2>
+                    <p class="descricao-casa">"Tão alto quanto a honra"</p>
+                </div>
+            <img class="escudo-casa" src="./src/imagens/tully_115484.png" alt="Selecionar Tully">
+                <div class="informacoes-casa">
+                    <h2 class="casa" id="nome-casa">Tully</h2>
+                    <p class="descricao-casa">"Família, Dever, Honra"</p>
+                </div>
+           
+
+        </section>
+
+    </main>
 </body>
+
 </html>
